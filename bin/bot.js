@@ -29,3 +29,4 @@ var norrisbot = new NorrisBot({
 });
 
 norrisbot.run();
+console.log("~~~~~~~~RUN ALSO")

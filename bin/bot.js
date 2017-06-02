@@ -8,7 +8,7 @@
  * @author Luciano Mammino <lucianomammino@gmail.com>
  */
 
-var NorrisBot = require('../lib/norrisbot');
+var CodeWarsBot = require('../lib/codewarsbot');
 
 /**
  * Environment variables used to configure the bot:
@@ -22,7 +22,7 @@ var token = process.env.BOT_API_KEY || require('../token');
 var dbPath = process.env.BOT_DB_PATH;
 var name = process.env.BOT_NAME;
 
-var norrisbot = new NorrisBot({
+var norrisbot = new CodeWarsBot({
     token: token,
     dbPath: dbPath,
     name: name

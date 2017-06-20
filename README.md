@@ -48,7 +48,21 @@ Details: <https://scotch.io/tutorials/building-a-slack-bot-with-node-js-and-chuc
 
 ### Verify an answer (in-depth)
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+ Use Code Snippet as message
+
+![Use Code Snippet](http://i.imgur.com/8JPqT31.png "Optional Title")
+
+  To verify a solution, title `codewars verify` must be used
+
+![Use Code Snippet](http://i.imgur.com/uZZd6yh.png "Optional Title")
+
+  Codewars requires a specific function for each challenge.  Use `codewars print` to verify the function name.  Use the function under `### Provided Code`
+
+![Use Code Snippet](http://i.imgur.com/m1xfjep.png "Optional Title")
+
+  Use the above function to define your solution, then press Create Snippet
+
+![Use Code Snippet](http://i.imgur.com/uZZd6yh.png "Optional Title")
 
 
 ## Commands
